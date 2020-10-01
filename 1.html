@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>jquery</title>
+    <script src="jquery-3.5.1.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  its online taken from cdn w3school  
+-->
+
+<h
+</head>
+<body>
+	
+	<h2  id= "la">e GAYAB hONE wALA hAI </h2>
+
+	<button id="ba">click mayur</button>
+	<button id="baa">Jadu</button>
+	<h2>hello yaha bone wali hai boht dabio barbadi.</h2>
+	<script>
+		$document.ready(function(){
+               $("#la").on({
+                       mouseenter:function(){
+                       $(this).css('background','red');},
+                       mouseleave:function(){
+                       	$(this).css('background','yellow');},
+                       	click:function(){
+                       		alert('way to handle multiple event');
+                       }
+               });
+		});
+	</script>
+	<script>
+	//	$(document).ready(function(){
+			//$("#ba").dblclick(function(){//click for single click
+               //   alert("my first jquery code");//and dblclick for double click
+              
+		//	});
+         
+
+	//	});
+
+
+	</script>
+	<input type="text" name="">
+	<script>
+		//$(document).ready(function(){
+			//$("#baa").mouseenter(function(){//mouseenter and mouseleave also awesome
+             // $("#la").toggle(1000); 
+              
+			//});
+         
+
+		//});
+
+
+	</script>
+
+	<script>
+		//$(document).ready(function(){
+			
+        ////      $("input").focus(function(){
+
+          //         $("#focusid").show().fadeOut(3000);
+          //      });
+               
+          //      $("input").blur(function(){
+
+           //        $("#blurid").show().fadeOut(3000);
+           //     });
+              
+		
+         
+
+	//	});
+//
+
+	</script>
+	<span id = "focusid">welcome</span>
+	<span id = "blurid">Take Care</span>
+	<script>
+	//	$(document).ready(function(){
+			
+            //  $('input').keyup(function(){//also keypress and keydown
+            //      alert("tHIS IS KEYBOARD EVENt");
+
+
+             // });
+		
+         
+
+	//	});
+
+
+	</script>
+	
+	
+</body>
+</html>
